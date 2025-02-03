@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending Movie Trailers</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Trending Movie Trailers</h1>
+            <p>Discover the latest movie trailers ranked by audience engagement.</p>
+        </header>
+
+        <section class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for trailers...">
+            <button id="filterBtn">Filter</button>
+        </section>
+        <button class="dark-mode-btn" id="darkModeBtn">🌙</button>
+
+        <section class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Trailer Name</th>
+                        <th>Views</th>
+                        <th>Likes</th>
+                        <th>Sentiment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Superman | Official Teaser Trailer</td>
+                        <td>51,289,843</td>
+                        <td>1,180,196</td>
+                        <td><span class="sentiment-positive">😊</span> Positive</td>
+                    </tr>
+                    <tr>
+                        <td>Squid Game: Season 2 | Official Trailer | Netflix</td>
+                        <td>14,940,612</td>
+                        <td>276,665</td>
+                        <td><span class="sentiment-positive">😊</span> Negative</td>
+                    </tr>
+                    <tr>
+                        <td>Karate Kid: Legends - Official Trailer (HD)</td>
+                        <td>15,715,259</td>
+                        <td>210,837</td>
+                        <td><span class="sentiment-positive">😊</span> Neutral</td>
+                    </tr>
+                    <tr>
+                        <td>Novocaine | Official Trailer (2025 Movie) - Jack Quaid, Amber Midhunter</td>
+                        <td>8,529,358</td>
+                        <td>41,062</td>
+                        <td><span class="sentiment-neutral">😐</span> Neutral</td>
+                    </tr>
+                    <tr>
+                        <td>The Recruit Season 2 | Official Trailer | Netflix</td>
+                        <td>581,629</td>
+                        <td>10,545</td>
+                        <td><span class="sentiment-negative">😞</span> Neutral</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

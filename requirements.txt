@@ -1,0 +1,6 @@
+pandas
+google-api-python-client==2.108.0
+google-cloud-storage
+python-dotenv
+numpy
+pyspark>=3.5.0
