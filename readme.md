@@ -1,4 +1,4 @@
-```markdown
+
 # Movie Trailer Analysis System
 
 ## How to Run the Project
@@ -13,7 +13,6 @@
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
-   ```
 
 ---
 
